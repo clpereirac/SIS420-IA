@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Generar datos de estatura y peso controlados
-np.random.seed(42)  # Fijamos una semilla para asegurar la reproducibilidad de los resultados
+np.random.seed(52)  # Fijamos una semilla para asegurar la reproducibilidad de los resultados
 estaturas = np.random.uniform(1.4, 2.0, 100)  # Generamos 100 estaturas aleatorias entre 1.4m y 2.0m
 pesos = []  # Lista para almacenar los pesos generados
 
@@ -37,7 +37,7 @@ y_line = mPendiente * xEstaturas + bInterseccion
 # Visualización de los datos generados y la recta ajustada
 plt.scatter(data['Estatura (m)'], data['Peso (kg)'], color='blue', label='Datos')
 plt.plot(xEstaturas, y_line, color='red', label='Línea ajustada')
-plt.title('Estatura vs Peso con Línea Ajustada')
+plt.title('Estatura versus Peso con Línea Ajustada')
 plt.xlabel('Estatura (m)')
 plt.ylabel('Peso (kg)')
 plt.legend()
