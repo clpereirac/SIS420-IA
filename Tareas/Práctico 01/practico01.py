@@ -1,3 +1,5 @@
+# Repositorio: https://github.com/clpereirac/SIS420-IA/tree/main/Tareas/Pr%C3%A1ctico%2001
+
 # Importación de librerías necesarias
 import numpy as np
 import pandas as pd
